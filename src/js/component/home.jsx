@@ -2,9 +2,10 @@ import React, { useState } from "react";
 
 const Home = () => {
   const [toDos, setToDos] = useState([
-    "Llamar al abogado",
-    "Lavar el coche",
-    "Preparar maletas",
+    "Bañarme y Lavarme los dientes",
+    "Desayunarme",
+    "Revisar el auto y manejar",
+	"Empezar a trabajar"
   ]);
   const [newTask, setNewTask] = useState("");
 
@@ -26,7 +27,7 @@ const Home = () => {
   return (
     <body>
     <div className="container">
-      <h1>To do List</h1>
+      <h1>Acciones diarias</h1>
       <input
         className="mb-4"
         type="text"
